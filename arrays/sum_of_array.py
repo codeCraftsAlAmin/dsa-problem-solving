@@ -17,7 +17,7 @@ from functools import reduce
 arr = [1, 2, 3, 4, 5]
 
 
-# # solution: 1 -- good
+# # solution: 1 == good
 def sumArray(arr):
     return reduce(lambda x, y: x + y, arr)
 
@@ -25,7 +25,7 @@ def sumArray(arr):
 print(sumArray(arr))
 
 
-# # solution: 1 -- better
+# # solution: 1 == better
 def sumArray_v2(arr):
     sum = 0
 
@@ -38,7 +38,7 @@ def sumArray_v2(arr):
 print(sumArray_v2(arr))
 
 
-# # solution: 3 -- best
+# # solution: 3 == best
 def sumArray(arr):
     return sum(arr)
 

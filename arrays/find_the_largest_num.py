@@ -13,7 +13,7 @@
 # Space Complexity: O(1)
 # ============================================
 
-# # solution: 1 -- good
+# # solution: 1 == good
 arr = [3, 7, 2, 9, 11]
 
 
@@ -32,7 +32,7 @@ print(maxNumber_v1(arr))
 # Space Complexity: O(1)
 # ============================================
 
-# # solution: 2 -- best
+# # solution: 2 == best
 arr = [3, 7, 2, 19, 11]
 
 

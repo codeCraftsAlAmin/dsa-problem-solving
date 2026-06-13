@@ -16,7 +16,7 @@
 text = "javascript"
 
 
-# # solution: 1 -- good
+# # solution: 1 == good
 def countVowels_v1(text):
     output = ""
 
@@ -35,7 +35,7 @@ def countVowels_v1(text):
 print(countVowels_v1(text))
 
 
-# # solution: 2 -- better
+# # solution: 2 == better
 def countVowels_v2(text):
     count = 0
     for t in text:

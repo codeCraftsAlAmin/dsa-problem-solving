@@ -17,7 +17,7 @@
 arr = [1, 2, 2, 3, 4, 4, 5]
 
 
-# # solution: 1 -- good
+# # solution: 1 == good
 def removeDuplicates_v1(arr):
 
     items = []
@@ -37,7 +37,7 @@ print(removeDuplicates_v1(arr))
 # ============================================
 
 
-# # solution: 1 -- best
+# # solution: 1 == best
 def removeDuplicates_v2(arr):
     return list(set(arr))
 

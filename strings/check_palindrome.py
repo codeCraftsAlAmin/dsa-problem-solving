@@ -17,7 +17,7 @@
 text = "hello"
 
 
-# # solution: 1 -- good
+# # solution: 1 == good
 def isPalindrome_v1(text):
     p_text = ""
     for i in range(len(text) - 1, -1, -1):
@@ -35,7 +35,7 @@ print(isPalindrome_v1(text))
 # ============================================
 
 
-# # solution: 1 -- better
+# # solution: 1 == better
 def isPalindrome_v2(text):
     rev = text[::-1]
 

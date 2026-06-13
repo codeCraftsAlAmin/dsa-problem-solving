@@ -14,7 +14,7 @@
 # ============================================
 
 
-# # solution: 1 -- good
+# # solution: 1 == good
 def reversedStr_v1(str):
     result = ""
     for i in range(len(str) - 1, -1, -1):
@@ -25,7 +25,7 @@ def reversedStr_v1(str):
 print(reversedStr_v1("olleh"))
 
 
-# # solution: 2 -- better
+# # solution: 2 == better
 def reversedStr_v2(str):
     result = []
     for i in range(len(str) - 1, -1, -1):
@@ -42,7 +42,7 @@ print(reversedStr_v2("olleh"))
 # ============================================
 
 
-# # solution: 3 -- best
+# # solution: 3 == best
 def reversedStr_v3(str):
     return str[::-1]
 

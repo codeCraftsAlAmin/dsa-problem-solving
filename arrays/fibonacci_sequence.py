@@ -14,6 +14,7 @@
 # ============================================
 
 
+# # solution: 1 == good
 def fibonacci(n):
     result = []
     a, b = 0, 1
@@ -25,3 +26,17 @@ def fibonacci(n):
 
 
 print(fibonacci(7))
+
+# # solution: 2 == using recursion
+
+
+def fibonacci_rec(n):
+
+    if n == 0:
+        return n
+    elif n == 1:
+        return n
+    return fibonacci_rec(n - 1) + fibonacci_rec(n - 2)
+
+
+print([fibonacci_rec(i) for i in range(7)])

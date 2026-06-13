@@ -16,7 +16,7 @@
 words = "hello world from js"
 
 
-# # solution: 1 -- good
+# # solution: 1 == good
 def capitalizeWords_v1(words):
     splitWords = words.split()
     result = []
@@ -36,7 +36,7 @@ print(capitalizeWords_v1(words))
 # ============================================
 
 
-# # solution: 2 -- best
+# # solution: 2 == best
 def capitalizeWords_v2(words):
     return words.title()
 
