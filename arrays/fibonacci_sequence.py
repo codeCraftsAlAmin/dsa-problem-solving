@@ -27,9 +27,8 @@ def fibonacci(n):
 
 print(fibonacci(7))
 
+
 # # solution: 2 == using recursion
-
-
 def fibonacci_rec(n):
 
     if n == 0:
@@ -40,3 +39,15 @@ def fibonacci_rec(n):
 
 
 print([fibonacci_rec(i) for i in range(7)])
+
+
+# # Nth Fibonacci Number
+def nthFib(n):
+
+    a, b = 0, 1
+    for i in range(n - 1):
+        a, b = b, a + b
+    return a
+
+
+print(nthFib(7))
