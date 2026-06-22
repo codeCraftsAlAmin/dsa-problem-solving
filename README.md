@@ -12,4 +12,4 @@ Focused on Time & Space Complexity analysis.
 | HashMaps  | 1/5    |
 | Sorting   | 0/5    |
 | Recursion | 0/5    |
-| Logic     | 2/5    |
+| Logic     | 4/5    |
