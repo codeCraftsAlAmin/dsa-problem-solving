@@ -1,7 +1,7 @@
 # ============================================
 # Problem: Array
 # Interview: #8
-# Difficulty: Easy
+# Difficulty: Medium
 # ============================================
 #
 # Problem Statement:

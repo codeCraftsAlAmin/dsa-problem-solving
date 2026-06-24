@@ -7,7 +7,7 @@ Focused on Time & Space Complexity analysis.
 
 | Topic     | Solved |
 | --------- | ------ |
-| Arrays    | 8/10   |
+| Arrays    | 9/10   |
 | Strings   | 5/7    |
 | HashMaps  | 1/5    |
 | Sorting   | 0/5    |
